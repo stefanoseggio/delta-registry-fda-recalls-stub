@@ -26,7 +26,7 @@ A real excerpt of `sample_output.json` from an actual run of this script (one FD
     "status_or_estado": "Ongoing",
     "reference_number": "D-0785-2026",
     "classification": "Class II",
-    "reason_for_recall": "Subpotent Drug",
+    "reasonForRecall": "Subpotent Drug",
     "source_url": "https://api.fda.gov/drug/enforcement.json"
   },
   {
@@ -37,7 +37,7 @@ A real excerpt of `sample_output.json` from an actual run of this script (one FD
     "category_or_type": "Quality defect",
     "status_or_estado": null,
     "reference_number": null,
-    "active_substances": "linagliptin;metformin hydrochloride",
+    "activeSubstances": "linagliptin;metformin hydrochloride",
     "source_url": "https://www.ema.europa.eu/en/medicines/dhpc/jentadueto"
   }
 ]
