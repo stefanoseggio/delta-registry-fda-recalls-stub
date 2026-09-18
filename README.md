@@ -13,7 +13,7 @@ The script prints its progress, writes up to 20 records to `sample_output.json` 
 
 ## Example output
 
-A real excerpt of `sample_output.json` from an actual run of this script (one FDA record, one EMA record - field names match the production actor's real dataset schema: `recordSource`, `jurisdiction`, `recipient_or_defendant_name`, `category_or_type`, `status_or_estado`, `reference_number`):
+A real excerpt of `sample_output.json` from an actual run of this script (one FDA record, one EMA record - field names match the production actor's real dataset schema: `recordSource`, `jurisdiction`, `recipient_or_defendant_name`, `category_or_type`, `status_or_estado`, `reference_number`, `reason_for_recall`, `active_substances`):
 
 ```json
 [
@@ -26,7 +26,7 @@ A real excerpt of `sample_output.json` from an actual run of this script (one FD
     "status_or_estado": "Ongoing",
     "reference_number": "D-0785-2026",
     "classification": "Class II",
-    "reasonForRecall": "Subpotent Drug",
+    "reason_for_recall": "Subpotent Drug",
     "source_url": "https://api.fda.gov/drug/enforcement.json"
   },
   {
@@ -37,7 +37,7 @@ A real excerpt of `sample_output.json` from an actual run of this script (one FD
     "category_or_type": "Quality defect",
     "status_or_estado": null,
     "reference_number": null,
-    "activeSubstances": "linagliptin;metformin hydrochloride",
+    "active_substances": "linagliptin;metformin hydrochloride",
     "source_url": "https://www.ema.europa.eu/en/medicines/dhpc/jentadueto"
   }
 ]
